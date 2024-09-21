@@ -1,0 +1,20 @@
+/* src/components/BotMonitor.css */
+.bot-monitor {
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.active {
+  color: #4caf50;
+}
+
+.status.inactive {
+  color: #f44336;
+}
